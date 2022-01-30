@@ -1,13 +1,8 @@
 import type { NextPage } from 'next'
-import styled from 'styled-components'
-
-const Title = styled.h1`
-    color: red;
-    font-size: 50px;
-`
+import Index from '../components/Index'
 
 const Home: NextPage = () => {
-    return <Title>Hello World</Title>
+    return <Index />
 }
 
 export default Home
